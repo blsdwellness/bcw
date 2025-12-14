@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f0fff4, #f9f9f9);
+  color: #333;
+}
+
+header {
+  background: url('nature-background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+ul li::before {
+  content: " ";
+  color: #4CAF50;
+}
+
+.cta a {
+  background: #4CAF50;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+.cta a:hover {
+  background: #45a049;
+}
